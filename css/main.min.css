@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap");body{font-family:"Mulish", sans-serif}img{width:100%}.btn{letter-spacing:0.1rem}.navbar{box-shadow:0.1rem 0.1rem 0.5rem #2e95c9}.navbar .navbar-brand{width:15rem}@media (max-width: 768px){.navbar .navbar-brand{width:10rem}}.navbar .dropdown-item:hover{background-color:#2e95c9}/*!
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap");body{font-family:"Mulish", sans-serif}img{width:100%}.btn{letter-spacing:0.1rem}.navbar{box-shadow:0.1rem 0.1rem 0.5rem #2e95c9;font-size:1.2rem}.navbar .navbar-brand{width:15rem}@media (max-width: 768px){.navbar .navbar-brand{width:10rem}}.navbar .navbar-toggler-icon{font-size:1.5rem}.navbar .btn:hover{color:#fff}.navbar .dropdown-item:hover{background-color:#2e95c9}.hero{margin-top:5rem}.section{padding:5rem 0}.section p{font-size:1.6rem}/*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.

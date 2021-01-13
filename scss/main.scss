@@ -21,6 +21,7 @@ img {
 // navbar
 .navbar {
   box-shadow: 0.1rem 0.1rem 0.5rem $primary;
+  font-size: 1.2rem;
 
   .navbar-brand {
     width: 15rem;
@@ -30,11 +31,31 @@ img {
     }
   }
 
+  .navbar-toggler-icon {
+    font-size: 1.5rem;
+  }
+
+  .btn:hover {
+    color: #fff;
+  }
+
   .dropdown-item:hover {
     background-color: $primary;
   }
 }
 
 // hero
+.hero {
+  margin-top: 5rem;
+}
+
+// sections
+.section {
+  padding: 5rem 0;
+
+  p {
+    font-size: 1.6rem;
+  }
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
