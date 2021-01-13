@@ -1,0 +1,13 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap");
+
+// variables
+$primary: #2e95c9;
+$secondary: #00355a;
+
+// globals
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
