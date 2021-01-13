@@ -10,6 +10,14 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
+.btn {
+  letter-spacing: 0.1rem;
+}
+
 // navbar
 .navbar {
   box-shadow: 0.1rem 0.1rem 0.5rem $primary;
@@ -26,5 +34,7 @@ body {
     background-color: $primary;
   }
 }
+
+// hero
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
