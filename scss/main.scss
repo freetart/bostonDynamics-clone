@@ -56,6 +56,43 @@ img {
   p {
     font-size: 1.6rem;
   }
+
+  .btn:hover {
+    color: #fff;
+  }
+
+  .info {
+    @media (max-width: 992px) {
+      order: -1;
+    }
+  }
+}
+
+// developers
+.developers {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/bg.jpg") center center/cover no-repeat fixed;
+
+  img {
+    width: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    &:hover {
+      border-bottom: 0.1rem solid $primary;
+    }
+  }
+
+  .content-border {
+    border-left: 0.1rem solid $primary;
+
+    @media (max-width: 576px) {
+      border-left: none;
+    }
+  }
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
