@@ -10,4 +10,21 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+// navbar
+.navbar {
+  box-shadow: 0.1rem 0.1rem 0.5rem $primary;
+
+  .navbar-brand {
+    width: 15rem;
+
+    @media (max-width: 768px) {
+      width: 10rem;
+    }
+  }
+
+  .dropdown-item:hover {
+    background-color: $primary;
+  }
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
