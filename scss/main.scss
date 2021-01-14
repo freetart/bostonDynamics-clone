@@ -18,9 +18,8 @@ img {
   letter-spacing: 0.1rem;
 }
 
-// ********** homepage **********
+// layout
 
-// navbar
 .navbar {
   box-shadow: 0.1rem 0.1rem 0.5rem $primary;
   font-size: 1.2rem;
@@ -45,6 +44,54 @@ img {
     background-color: $primary;
   }
 }
+
+.footer {
+  &-content {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &-top {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #fff;
+    gap: 2rem;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// ********** homepage **********
 
 // hero
 .hero {
@@ -97,49 +144,18 @@ img {
   }
 }
 
-.footer {
-  &-content {
-    display: grid;
-    grid-template-columns: 2fr 4fr;
+// ********** resources **********
+.subhero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/subhero1.jpg") center bottom/cover no-repeat fixed;
+  height: 70vh;
 
-    @media (max-width: 1200px) {
-      grid-template-columns: 1fr;
-    }
+  .col {
+    margin-top: 15rem;
   }
 
-  &-top {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    color: #fff;
-    gap: 2rem;
-
-    @media (max-width: 1200px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    a {
-      text-decoration: none;
-      color: #fff;
-      font-size: 1.2rem;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+  .btn:hover {
+    color: #000;
   }
 }
 
