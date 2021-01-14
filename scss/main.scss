@@ -148,7 +148,11 @@ img {
   height: 70vh;
 
   .col {
-    margin-top: 15rem;
+    margin-top: 8rem;
+
+    @media (max-width: 576px) {
+      margin-top: 5rem;
+    }
   }
 
   .btn:hover {
