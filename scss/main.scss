@@ -82,7 +82,7 @@ img {
     a {
       text-decoration: none;
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1rem;
 
       &:hover {
         text-decoration: underline;
@@ -190,12 +190,30 @@ img {
   height: 70vh;
 
   .col {
-    margin-top: 15rem;
+    margin-top: 8rem;
+
+    p {
+      width: 50%;
+
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      margin-top: 5rem;
+    }
   }
 
   .btn:hover {
     color: #000;
   }
+}
+
+// ********** shop **********
+
+.slider {
+  margin-top: 5rem;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
