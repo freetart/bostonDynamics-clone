@@ -164,4 +164,23 @@ img {
   }
 }
 
+.card {
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
