@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/koala.ico" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Boston Dynamics Clone | Company</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.svg" alt="boston dynamics logo" />
+        </a>
+        <button
+          class="navbar-toggler navbar-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="robots.html"
+                id="navbarDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                Robots
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="resources.html"
+                id="navbarDropdown"
+                role="link"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="company.html"
+                id="navbarDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                Company
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul
+                class="dropdown-menu bg-secondary"
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a class="dropdown-item text-white" href="#">New Releases</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Legacy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Parts</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- subhero -->
+    <header class="company-subhero">
+      <div class="container">
+        <div class="row">
+          <div class="col section">
+            <h1 class="display-1 text-white mb-2">About</h1>
+            <p class="lead w-50 text-white">
+              Boston Dynamics is a world leader in mobile robots, tackling some
+              of the toughest robotics challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="faq section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center display-4 mb-5">
+                Frequently Asked Questions
+              </h2>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Why does Boston Dynamics make legged robots?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Boston Dynamics focuses on creating robots with advanced
+                      mobility, dexterity and intelligence. We have long held
+                      that mobility sufficient to access both the natural and
+                      the built world required legs. We began the pursuit of
+                      this dream over 30 years ago, first in academia and then
+                      as part of Boston Dynamics because it was an exciting
+                      technical challenge and because to build a highly mobile
+                      robot required it. We wanted to build a robot that could
+                      go where people go. The commonly referred to “dull, dirty
+                      and dangerous” tasks don’t occur solely on a neatly
+                      organized factory floor, they pop up in the natural world
+                      and in existing infrastructure. These are places where
+                      being effective requires deftly maneuvering through rocky
+                      trails, staircases, catwalks, doors or narrow cluttered
+                      passages. The environment can’t be conformed to the
+                      machine, and therefore the machine must be capable in the
+                      environment as it comes.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      What Makes Boston Dynamics Unique?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      One of the things that makes Boston Dynamics unique is the
+                      ambition to build dynamically stable, legged machines.
+                      Marc Raibert began tackling this problem before anyone
+                      else in the world. And we’ve been at it since, almost 35
+                      years. We’ve been inspired by and worked towards this goal
+                      for so long that we have invented techniques to make
+                      robots work that you can’t find in any textbook or
+                      technical article. The result is that we now know how to
+                      build walking machines of any size, shape, actuator style
+                      or powerplant. These unique designs enable our robots to
+                      conquer terrains inaccessible to others, and perform
+                      automated tasks in unstructured environments.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Do Boston Dynamics Robots Use Artifical Intelligence?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Spot uses a lot of intelligence to navigate the world. We
+                      call this “athletic intelligence”’ as the robot walks,
+                      climbs stairs, avoids obstacles, traverses difficult
+                      terrain and autonomously follows preset routes without
+                      constant input from users. Out-of-the-box, Spot has a very
+                      simple understanding of the world to enable it to walk
+                      more steadily - i.e. it can identify stairs, body
+                      obstacles, edges that might cause it to trip. Applications
+                      such as stopping an autonomous mission when a person is
+                      nearby or responding to voice commands can be added to the
+                      robot using our developer tools and payload ports.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      When Can I Buy A Robot?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Spot is available for commercial purchase via our shop
+                      page. You can contact our sales team about our Pick
+                      solution for box detection in warehouses. Handle, which is
+                      Boston Dynamics’ mobile robot for moving boxes in the
+                      warehouse, is scheduled to be available for commercial
+                      purchase in 2022. We currently do not have plans to
+                      commercialize Atlas, which is currently a research
+                      platform for us to explore some of the most difficult
+                      challenges in robotics design and control.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      Are There Any Limitations You Put On The Sale Of Your
+                      Products?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Our products - Spot and Pick - are available for sale for
+                      commercial, industrial, enterprise and university research
+                      uses. Customers who want to buy Spot directly via our
+                      website can purchase up to two robots. For larger orders,
+                      our sales team would like to speak with customers to
+                      better explore how Spot can help them. Currently we only
+                      offer sales to customers in the United States. We still
+                      offer lease options for a select number of markets
+                      overseas.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      Will Your Robots Be Modified For In-Home Use?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Spot is a powerful, 65 lb. industrial robot. It is
+                      intended for industrial and commercial use, by individuals
+                      with proper training who operate it in accordance with its
+                      user guide. This version is not intended for use in the
+                      home, or by children or others who cannot operate it
+                      responsibly. However, we may explore consumer-facing
+                      applications of a future variant of this robot as early as
+                      2022.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSeven">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSeven"
+                    >
+                      Who Owns Boston Dynamics? Can I Buy Boston Dynamics Stock?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSeven"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingSeven"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Boston Dynamics is wholly owned by SoftBank Group Corp.
+                      Ticker: SFTBF (OTCMKTS).
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingEight">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseEight"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseEight"
+                    >
+                      Where Are Your Robots Made?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseEight"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingEight"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Our robots are designed and perfected in our office in
+                      Waltham, Massachusetts and are made in the United States.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-img bg-primary p-5 h-auto">
+          <img src="img/footer-logo.svg" alt="boston dynamics logo" />
+        </div>
+        <div class="footer-top bg-secondary py-5 px-3">
+          <div class="footer-list">
+            <h3>Robots</h3>
+            <ul>
+              <li><a href="#!">Spot</a></li>
+              <li><a href="#!">Handle</a></li>
+              <li><a href="#!">Atlas</a></li>
+              <li><a href="#!">Legacy</a></li>
+            </ul>
+          </div>
+          <div class="footer-list">
+            <h3>Software</h3>
+            <ul>
+              <li><a href="#!">Pick</a></li>
+            </ul>
+          </div>
+          <div class="footer-list">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="#!">Spot</a></li>
+              <li><a href="#!">Payloads</a></li>
+              <li><a href="#!">Extras</a></li>
+            </ul>
+          </div>
+          <div class="footer-list">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#!">About</a></li>
+              <li><a href="#!">Careers</a></li>
+              <li><a href="#!">News</a></li>
+              <li><a href="#!">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-list">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="#!">Support Center</a></li>
+              <li><a href="#!">Video Tutorials</a></li>
+              <li><a href="#!">Resources</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text-center pt-2">
+          &copy; Boston Dynamics 2021 | based on Boston Dynamics website | coded
+          by habibdev (╯°□°）╯︵ ┻━┻
+        </p>
+      </div>
+    </footer>
+
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

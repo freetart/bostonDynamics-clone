@@ -183,4 +183,19 @@ img {
   }
 }
 
+// ********** company **********
+.company-subhero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/subhero2.jpg") center bottom/cover no-repeat fixed;
+  height: 70vh;
+
+  .col {
+    margin-top: 15rem;
+  }
+
+  .btn:hover {
+    color: #000;
+  }
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
